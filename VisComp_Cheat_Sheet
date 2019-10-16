@@ -1,0 +1,10 @@
+#Basic Python
+(//) operator: Floor Division
+
+#Numpy
+np.dot(a,b): Dot product of 2 Matrices or Vectors
+np.transpose(A): returns A^t
+np.linalg.solve(A,b): Returns x, s.t. Ax = b exactly (Dimensions must be correct)
+ndarray.flatten(): returns copy of input array flattened to one dimension (Arg: C -> flatten Row major, F -> flatten column major)
+np.column_stack((a_i,a_j)): (a_i,a_j vectors of length n) returns a nx2 Matrix A where A[i,j] = a_i[j] 
+np.stack(a,b,axis = i): similar to abover (no axis arg -> row major, axis = -1 -> column major)
